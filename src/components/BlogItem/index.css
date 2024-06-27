@@ -1,6 +1,7 @@
 .eachblogitemcont {
   background-color: transparent;
   border: groove lightblue;
+  padding: 20px;
   margin-bottom: 20px;
 }
 .blogitemtitle {

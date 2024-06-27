@@ -9,7 +9,7 @@ let blogs = []
 class BlogItemDetails extends Component {
   state = {eachItemDetails: [], isEdit: false}
   componentDidMount() {
-    this.getBlogsData
+    this.getBlogsData()
   }
 
   getBlogsData = async () => {

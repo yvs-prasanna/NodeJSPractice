@@ -9,13 +9,6 @@ console.log(blogs)
 
 class EditBlog extends Component {
   state = {blogDetails: {}, title: '', content: '', author: ''}
-  componentDidMount() {
-    this.onSubmitForm
-  }
-
-  onSubmitForm = event => {
-    event.preventDefault()
-  }
 
   onClickSubmit = () => {
     const {title, content, author} = this.state
@@ -41,7 +34,7 @@ class EditBlog extends Component {
   render() {
     const {title, content, author} = this.state
     return (
-      <form onSubmit={this.onSubmitForm} className="EditBlogWholeCOnt">
+      <form className="EditBlogWholeCOnt">
         <EachInputCont>
           <EachLabelEle htmlFor="title">Title</EachLabelEle>
           <EachInputEle
