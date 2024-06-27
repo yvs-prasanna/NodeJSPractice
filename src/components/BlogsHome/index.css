@@ -1,0 +1,47 @@
+.homewholecont {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(19, 35, 49),
+    rgb(44, 23, 56),
+    rgb(85, 18, 59)
+  );
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.homeblogcreatecont {
+  background-color: transparent;
+  border: groove lightblue;
+}
+.blogsvlog {
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+  font-family: Fantasy 2;
+}
+.addBlogbutton {
+  background-color: rgb(222, 183, 222);
+  width: 20%;
+  cursor: pointer;
+}
+.allblogItemscont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 18%;
+  margin: 20px;
+  width: 100%;
+}
+.blogsheading {
+  font-weight: bold;
+  font-size: 80px;
+  color: white;
+  font-family: Fantasy 2;
+}
+.textareaclassname {
+  width: 100%;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 15px;
+}

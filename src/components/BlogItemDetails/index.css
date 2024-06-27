@@ -1,0 +1,58 @@
+.blogItemDetailswholecont {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(19, 35, 49),
+    rgb(44, 23, 56),
+    rgb(85, 18, 59)
+  );
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.blogsitemdetailsheading {
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+  font-family: Fantasy 2;
+}
+.blogsItemdetailscont {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blogsItemdetailsTitle {
+  font-weight: bold;
+  font-size: 70px;
+  color: white;
+  font-family: Fantasy 2;
+}
+.blogsItemdetailsauthor {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  font-family: Fantasy 2;
+}
+.blogsItemdetailsContent {
+  font-size: 24px;
+  color: white;
+  font-family: Fantasy 2;
+}
+.EditBlogcont {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.editblogButton {
+  border: none;
+  background-color: rgb(170, 38, 170);
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
