@@ -56,7 +56,7 @@ class Home extends Component {
     allblogs = JSON.parse(localStorage.getItem('blogs'))
   }
   render() {
-    const {titleval, contentval, authorval, blogsList} = this.state
+    const {titleval, contentval, authorval} = this.state
     return (
       <BlogHomeWholeCont className="homewholecont">
         <h1 className="blogsvlog">Blogs Vlog</h1>

@@ -31,3 +31,27 @@
   margin-left: 6%;
   margin-top: 10px;
 }
+.userProfile {
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(162, 23, 162);
+  margin-right: 20px;
+}
+.authornameandprofile {
+  display: flex;
+  align-items: center;
+}
+.dateText {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Fantasy 2;
+}
+.dateandcontentcont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}

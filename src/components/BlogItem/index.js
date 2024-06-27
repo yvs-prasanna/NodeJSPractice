@@ -11,7 +11,7 @@ import './index.css'
 
 const BlogItem = props => {
   const {details, onClickBlogItem} = props
-  const {id, title, author, content} = details
+  const {id, title, author} = details
 
   const onClickCloseButton = () => {
     onClickBlogItem(id)
@@ -23,7 +23,14 @@ const BlogItem = props => {
         <Link to={`/blogs/${id}`}>
           <h1 className="blogitemtitle">{title}</h1>
           <EachBlogItemTitleandAuthorCont>
-            <p className="blogitemauthor">{author}</p>
+            <div className="dateandcontentcont">
+              <div className="authornameandprofile">
+                <p className="userProfile">{author[0]}</p>
+                <p className="blogitemauthor">{author}</p>
+              </div>
+              <p className="dateText">28/07/2024</p>
+            </div>
+
             <p className="blogitemdate">content</p>
           </EachBlogItemTitleandAuthorCont>
         </Link>
