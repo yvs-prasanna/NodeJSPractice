@@ -28,7 +28,7 @@ class BlogItemDetails extends Component {
   render() {
     const {eachItemDetails, isEdit} = this.state
     const {title, content, author} = eachItemDetails
-    const buttonText = isEdit ? 'Show Blog' : 'Edit Blog'
+    const buttonText = isEdit ? 'Move Down to Edit' : 'Edit Blog'
     return (
       <div className="blogItemDetailswholecont">
         <h1 className="blogsitemdetailsheading">Blogs Vlog</h1>
